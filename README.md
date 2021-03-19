@@ -19,7 +19,9 @@ server will be running on your localhost:8000
 API-Documentations:
 
 API-1 : localhost:8000/halls - To get available seminar halls : 
+
         requeset-Method : GET
+        
         requeset-JSON : {
                             "capacity": 10,
                             "date": "2021-03-15",
@@ -41,7 +43,9 @@ API-1 : localhost:8000/halls - To get available seminar halls :
                         }
 
 API-2 : localhost:8000/book_hall - To book an available seminar halls : 
+
         requeset-Method : POST
+        
         requeset-JSON : {
                             "hall_id": "B",
                             "date": "2021-03-16",
@@ -57,8 +61,10 @@ API-2 : localhost:8000/book_hall - To book an available seminar halls :
                             "error": "Seminar hall already occupied for requested timings."
                         }
 
-API-3 : localhost:8000/seminars - To get list of all seminars for given date range : 
+API-3 : localhost:8000/seminars - To get list of all seminars for given date range :
+
         requeset-Method : GET
+        
         requeset-JSON : {
                             "start_date" : "2021-03-15",
                             "end_date" : "2021-03-16"
