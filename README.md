@@ -5,13 +5,13 @@ Pre-requisite:
     2. python 3.7
 
 Step-by-step process: 
-    1. Create a DB schema as 'scry' 
+    1. Create a DB schema as 'root_proj' 
         -you can name it as you want, change name for DATABASES in settings.py
     2. Create a directory and extract code in directory.
     3. Create a virtual env inside it. (command: python -m venv venv)
     4. Activate the virtual env  (command: source venv/bin/activate)
-    5. Install the /scry/requirements.txt (command: pip install -r /scry/requirements.txt)
-    6. Change directory to /scry/ and run the server. (command python manage.py runserver)
+    5. Install the /root_proj/requirements.txt (command: pip install -r /root_proj/requirements.txt)
+    6. Change directory to /root_proj/ and run the server. (command python manage.py runserver)
 
 server will be running on your localhost:8000
 
